@@ -47,6 +47,10 @@
 	background: var(--gold, #ffc802);
 }
 
+.item[data-checked='false'] .label:hover {
+	background: #ffedab;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
